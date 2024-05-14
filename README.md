@@ -98,11 +98,10 @@ StatNet33 is a Social Network Analyzer project to build a flexible and user-frie
 ## Setup
 
 1. Clone or [download](https://github.com/leocomsci/Statnet33/archive/refs/heads/main.zip) the repo.
-2. Download the pre-trained word embeddings from Google News Word2Vec, unzip and put the .bin file in the main folder.
+2. Download and install Python from the [official website](https://www.python.org). Make sure to add Python to your system's PATH environment variable during the installation process.
+   - Install required Python packages listed in the requirements.txt file by running `sh pip3 install -r requirements.txt.`
 
-- HuggingFace: https://huggingface.co/NathaNn1111/word2vec-google-news-negative-300-bin
-- Google Drive (zip): https://drive.google.com/file/d/154QtCXQWAMNS46v9kxjAMm3zq2fRnIVm/view?usp=sharing
-- Alternative Google Drive link: https://drive.google.com/file/d/1QsLGJwOWkNoekIASH0cCar07vaoYZN33/view?usp=sharing
+-
 
 3. Install required packages
    All packages use:
