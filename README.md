@@ -70,12 +70,7 @@
   <img src="assets/homepage.png" alt="Product Name Screen Shot White" width="750" />
 </div>
 
-StatNet33 is a Social Network Analyzer project to build a flexible and user-friendly, cross-platform tool for social network analysis and visualisation. It is developed in Python and R, which can run on both Windows and macOS. The app features an intuitive and user-friendly interface that guides users through the analysis process. It offers interactive controls and tooltips to assist users in navigating functionalities. The web application offers a set of features and capabilities to facilitate social network analysis:
-
-- Users can easily upload network data in common formats such as CSV or JSON. The application provides validation tools to ensure data integrity.
-- A wide range of network cohesion statistics to summarize and characterize the properties of the uploaded network. These statistics include measures of centrality, connectivity, density, and more.
-- Networks can be visualised using interactive and customizable graph layouts provided by Dash Cytoscape. The application supports various styles, colours, and labelling options to enhance the visual representation of the network.
-- The app utilised Exponential Random Graph Models (ERGM) to analyse the structural patterns and associated factors in the network. Users can use ERGM models to assess model fit and interpret the results.
+StatNet33 is a Social Network Analyzer project to build a flexible and user-friendly, cross-platform tool for social network analysis and visualisation. It is developed in Python and R, which can run on both Windows and macOS. The app features an intuitive and user-friendly interface that guides users through the analysis process. It offers interactive controls and tooltips to assist users in navigating functionalities.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -117,29 +112,9 @@ StatNet33 is a Social Network Analyzer project to build a flexible and user-frie
   export R_HOME=/Library/Frameworks/R.framework/Resources`
   ```
 
-1. Clone or [download](https://github.com/leocomsci/Statnet33/archive/refs/heads/main.zip) the repo.
-2. Download the pre-trained word embeddings from Google News Word2Vec, unzip and put the .bin file in the main folder.
-
-- HuggingFace: https://huggingface.co/NathaNn1111/word2vec-google-news-negative-300-bin
-- Google Drive (zip): https://drive.google.com/file/d/154QtCXQWAMNS46v9kxjAMm3zq2fRnIVm/view?usp=sharing
-- Alternative Google Drive link: https://drive.google.com/file/d/1QsLGJwOWkNoekIASH0cCar07vaoYZN33/view?usp=sharing
-
-3. Install required packages
-   All packages use:
-   1. **pandas**: For data manipulation and analysis.
-   2. **numpy**: For numerical operations and arrays.
-   3. **gensim**: For Word2Vec model usage.
-   4. **scikit-learn**: For machine learning tasks, including classifiers, evaluation metrics, and preprocessing tools.
-   5. **nltk**: For natural language processing tasks, such as text tokenization and stopword removal.
-   6. **string**: Python standard library for string operations.
-   7. **keras**: For deep learning models, including the Convolutional Neural Network (CNN) in your code.
-   8. **transformers**: For working with pre-trained models from HuggingFace (used for summarization).
-   9. **tensorflow**: Required for Keras and deep learning models.
-   10. **flask** or **streamlit**: For developing web applications (if used).
-
-```sh
-export R_LIBS=/Library/Frameworks/R.framework/Versions/[version]/Resources/library
-```
+  ```sh
+  export R_LIBS=/Library/Frameworks/R.framework/Versions/[version]/Resources/library
+  ```
 
 Or We can use code snippet that is also included for MacOs users:
 
@@ -230,11 +205,11 @@ Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
 
 ## Contact
 
-Duc Phat Nguyen - [104203829@student.swin.edu.au](mailto:104203829@student.swin.edu.au)
-Thi Thanh Thuy Tran - [103514782@student.swin.edu.au](mailto:103514782@student.swin.edu.au)
-Hoa Ngoc Vu - [104188285@student.swin.edu.au](mailto:104188285@student.swin.edu.au)
-A Luan Luong - [104479251@student.swin.edu.au](mailto:104479251@student.swin.edu.au)
-Viet Hoang Lai - [104350042@student.swin.edu.au](mailto:104350042@student.swin.edu.au)
+- Duc Phat Nguyen - [104203829@student.swin.edu.au](mailto:104203829@student.swin.edu.au)
+- Thi Thanh Thuy Tran - [103514782@student.swin.edu.au](mailto:103514782@student.swin.edu.au)
+- Hoa Ngoc Vu - [104188285@student.swin.edu.au](mailto:104188285@student.swin.edu.au)
+- A Luan Luong - [104479251@student.swin.edu.au](mailto:104479251@student.swin.edu.au)
+- Viet Hoang Lai - [104350042@student.swin.edu.au](mailto:104350042@student.swin.edu.au)
 
 Project Link: [https://github.com/leocomsci/Statnet33](https://github.com/leocomsci/Statnet33)
 
