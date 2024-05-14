@@ -30,7 +30,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/leocomsci/Statnet33">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="assets/logo.jpg" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">A Social Network Analyzer application with a flexible and user-friendly, cross-platform tool for social network analysis and visualisation</h3>
