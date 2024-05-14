@@ -104,7 +104,7 @@ The current workflow is:
 <!-- GETTING STARTED -->
 ## Setup
 
-1. Clone or [download](https://github.com/Ethan4thewin/NLP-policy/archive/refs/heads/main.zip) the repo.
+1. Clone or [download](https://github.com/leocomsci/Statnet33/archive/refs/heads/main.zip) the repo.
 2. Download the pre-trained word embeddings from Google News Word2Vec, unzip and put the .bin file in the main folder.
   * HuggingFace: https://huggingface.co/NathaNn1111/word2vec-google-news-negative-300-bin
   * Google Drive (zip): https://drive.google.com/file/d/154QtCXQWAMNS46v9kxjAMm3zq2fRnIVm/view?usp=sharing
@@ -144,18 +144,30 @@ The classification model is currently SVM model in the .pkl file from the curren
 
 <!-- USAGE EXAMPLES -->
 ## Usage
-The project's primary usage is for text classification and summarization. It can be applied to automatically categorize and generate concise summaries of text data, making it useful for tasks such as content moderation, information retrieval, and document summarization. The web application (if deployed) provides a user-friendly interface for accessing these functionalities.
+The project's primary usage is for social network analysis. In details:
+* Users can easily upload network data in common formats such as CSV or JSON. The application provides validation tools to ensure data integrity. See more information in section 5, Data Processing.
+* A wide range of network cohesion statistics to summarize and characterize the properties of the uploaded network. These statistics include measures of centrality, connectivity, density, and more. Read more in section 6, Network Descriptive Statistics.
+* Networks can be visualised using interactive and customizable graph layouts provided by Dash Cytoscape. The application supports various styles, colours, and labelling options to enhance the visual representation of the network. Read details in section 7, Network Visualisation.
+* The app utilised Exponential Random Graph Models (ERGM) to analyse the structural patterns and associated factors in the network. Users can use ERGM models to assess model fit and interpret the results. See more in section 8, Statistical Models.
 ### Example
 <div align="center">
-  <img src="images/index.png" alt="Product Name Screen Shot1" width="750" />
+  <img src="assets/Picture1.png" alt="Home Page" width="750" />
 </div>
 
 <div align="center">
-  <img src="images/result.png" alt="Product Name Screen Shot2" width="750" />
+  <img src="assets/Picture2.png" alt="General Metrics Page" width="750" />
 </div>
 
 <div align="center">
-  <img src="images/streamlit.jpeg" alt="Product Name Screen Shot Streamlit" width="750" />
+  <img src="assets/Picture3.png" alt="Visualisation Page" width="750" />
+</div>
+
+<div align="center">
+  <img src="assets/Picture4.png" alt="ERGM Model Page" width="750" />
+</div>
+
+<div align="center">
+  <img src="assets/Picture5.png" alt="Simulation Page" width="750" />
 </div>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -190,9 +202,13 @@ Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
 <!-- CONTACT -->
 ## Contact
 
-Ethan - phatnguyenground@gmail.com - [My LinkedIn][linkedin-url] - [My Website](https://ethanbyday.notion.site/)
+Duc Phat Nguyen - [104203829@student.swin.edu.au](mailto:104203829@student.swin.edu.au)
+Thi Thanh Thuy Tran - [103514782@student.swin.edu.au](mailto:103514782@student.swin.edu.au)
+Hoa Ngoc Vu - [104188285@student.swin.edu.au](mailto:104188285@student.swin.edu.au)
+A Luan Luong - [104479251@student.swin.edu.au](mailto:104479251@student.swin.edu.au)
+Viet Hoang Lai - [104350042@student.swin.edu.au](mailto:104350042@student.swin.edu.au)
 
-Project Link: [https://github.com/Ethan4thewin/NLP-policy](https://github.com/Ethan4thewin/NLP-policy)
+Project Link: [https://github.com/leocomsci/Statnet33](https://github.com/leocomsci/Statnet33)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -201,7 +217,7 @@ Project Link: [https://github.com/Ethan4thewin/NLP-policy](https://github.com/Et
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-I would like to express my gratitude to [Dr. Humphrey O. Obie](https://scholar.google.com/citations?user=rxRSkJwAAAAJ) for his invaluable guidance and mentorship throughout the project. I also would like to thank my team members for their support, contributions to this project, and for being good friends.
+I would like to express my gratitude to [Dr. Peng Wang](https://scholar.google.com/citations?hl=en&user=FWgnwbIAAAAJ) and [Dr. Eureka Priyadarshani](https://www.linkedin.com/in/eureka-priyadarshani-50ab409a/?originalSubdomain=au) for their invaluable guidance and mentorship throughout the project. I also would like to thank my team members for their support, contributions to this project, and for being good friends.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -209,15 +225,13 @@ I would like to express my gratitude to [Dr. Humphrey O. Obie](https://scholar.g
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/Ethan4thewin/NLP-policy.svg?style=for-the-badge
-[contributors-url]: https://github.com/Ethan4thewin/NLP-policy/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/Ethan4thewin/NLP-policy.svg?style=for-the-badge
-[forks-url]: https://github.com/Ethan4thewin/NLP-policy/network/members
-[stars-shield]: https://img.shields.io/github/stars/Ethan4thewin/NLP-policy.svg?style=for-the-badge
-[stars-url]: https://github.com/Ethan4thewin/NLP-policy/stargazers
-[issues-shield]: https://img.shields.io/github/issues/Ethan4thewin/NLP-policy.svg?style=for-the-badge
-[issues-url]: https://github.com/Ethan4thewin/NLP-policy/issues
-[license-shield]: https://img.shields.io/github/license/Ethan4thewin/NLP-policy.svg?style=for-the-badge
-[license-url]: https://github.com/Ethan4thewin/NLP-policy/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://www.linkedin.com/in/ethan-by-day/
+[contributors-shield]: https://img.shields.io/github/contributors/leocomsci/Statnet33.svg?style=for-the-badge
+[contributors-url]: https://github.com/leocomsci/Statnet33/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/leocomsci/Statnet33.svg?style=for-the-badge
+[forks-url]: https://github.com/leocomsci/Statnet33/network/members
+[stars-shield]: https://img.shields.io/github/stars/leocomsci/Statnet33.svg?style=for-the-badge
+[stars-url]: https://github.com/leocomsci/Statnet33/stargazers
+[issues-shield]: https://img.shields.io/github/issues/leocomsci/Statnet33.svg?style=for-the-badge
+[issues-url]: https://github.com/leocomsci/Statnet33/issues
+[license-shield]: https://img.shields.io/github/license/leocomsci/Statnet33.svg?style=for-the-badge
+[license-url]: https://github.com/leocomsci/Statnet33/blob/master/LICENSE.txt
