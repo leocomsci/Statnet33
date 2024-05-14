@@ -1,4 +1,7 @@
 #!/bin/bash
-python app.py &
+
+echo "Starting Python application..."
+python3 app.py &
 sleep 5
-open http://127.0.0.1:8050/
+echo "Opening URL..."
+open "http://127.0.0.1:8050/"

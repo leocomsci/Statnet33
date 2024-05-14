@@ -14,10 +14,15 @@ from dash import dcc, html
 from dash.dependencies import Input, Output, State
 from rpy2.robjects import pandas2ri
 
+# For Windows Users
 # Set R_HOME
 # os.environ['R_HOME'] = 'C:\\Program Files\\R\\R-4.3.3'
 # # Set R_LIBS
 # os.environ['R_LIBS'] = 'C:\\Program Files\\R\\R-4.3.3\\library'
+
+# For MacOS Users
+# os.environ['R_HOME'] = '/Library/Frameworks/R.framework/Resources'
+# os.environ['R_LIBS'] = '/Library/Frameworks/R.framework/Versions/4.3/Resources/library'
 
 dash.register_page(
     __name__,

@@ -99,44 +99,30 @@ StatNet33 is a Social Network Analyzer project to build a flexible and user-frie
 
 1. Clone or [download](https://github.com/leocomsci/Statnet33/archive/refs/heads/main.zip) the repo.
 2. Download and install Python from the [official website](https://www.python.org). Make sure to add Python to your system's PATH environment variable during the installation process.
-   - Install required Python packages listed in the requirements.txt file by running `sh pip3 install -r requirements.txt.`
 
--
+- Install required Python packages listed in the requirements.txt file by running `pip3 install -r requirements.txt.
 
-3. Install required packages
-   All packages use:
-   1. **pandas**: For data manipulation and analysis.
-   2. **numpy**: For numerical operations and arrays.
-   3. **gensim**: For Word2Vec model usage.
-   4. **scikit-learn**: For machine learning tasks, including classifiers, evaluation metrics, and preprocessing tools.
-   5. **nltk**: For natural language processing tasks, such as text tokenization and stopword removal.
-   6. **string**: Python standard library for string operations.
-   7. **keras**: For deep learning models, including the Convolutional Neural Network (CNN) in your code.
-   8. **transformers**: For working with pre-trained models from HuggingFace (used for summarization).
-   9. **tensorflow**: Required for Keras and deep learning models.
-   10. **flask** or **streamlit**: For developing web applications (if used).
+3. Download and install R from the [official website](https://www.r-project.org). Follow the installation instructions specific to your operating system.
 
-```sh
-pip install pandas numpy gensim scikit-learn nltk string keras transformers tensorflow flask streamlit
-```
+- Required R Packages: Install any required R packages listed in the `install_packages.R` script by running `source("install_packages.R")` in your R console.
+- For Windows users: You will need to set the R_HOME and R_LIBS environment variable to your R installation directory. This code snippet is included at the top of the ergm.py, located in the pages folder. For example:
+  > os.environ['R_HOME'] = 'C:\\Program Files\\R\\R-[version]'
+  > os.environ['R_LIBS'] = 'C:\\Program Files\\R\\R-[version]\\library'
+  > You can replace the path to your R installation directory on Windows accordingly.
+- For macOS users: You can set environment variables using the terminal using the export command. For example:
 
-### Flask deployment (assuming Flask is installed)
+  > export R_HOME=/Library/Frameworks/R.framework/Resources
+  > export R_LIBS=/Library/Frameworks/R.framework/Versions/[version]/Resources/library
+  > Or
+  > We can use code snippet that is also included for MacOs users:
+  > os.environ['R_HOME'] = '/Library/Frameworks/R.framework/Resources'
+  > os.environ['R_LIBS'] = '/Library/Frameworks/R.framework/Versions/[version]/Resources/library'
 
-> The model used in this instance is SVM, with tested result up to 95% accuracy.
+4. After making sure that Python and R have what it needs, StatNet33 can be accessed by opening the preferred web browser (e.g., Google Chrome, Mozilla Firefox, Safari).
 
-1. Run app_flask.py. It will start a web server on Flask that listens on a specified port (usually port 5000 by default).
-2. Connect to localhost:_insert specified port_ (by default, it will be localhost:5000) on a web browser. The web app should be displayed.
-
-### Streamlit deployment (assuming Streamlit is installed)
-
-> The model used in this instance is SVM, with tested result up to 95% accuracy.
-
-1. Run app_streamlit.py. It will start a web server on Streamlit that listens on a specified port (usually port 8501 by default).
-2. Connect to localhost:_insert specified port_ (by default, it will be localhost:8501) on a web browser. The web app should be displayed.
-
-### Configurations
-
-The classification model is currently SVM model in the .pkl file from the current five models pool: Decision Tree, Random Forest, SVM, Logistic Regression, and CNN. The classification model can be changed by running the [Notebook](final_code.ipynb) and change the function `classify_policy(policy_text)` by uncomment the desired model. Then, you can rerun the notebook and the app.py to reflect the changes.
+- If users use Windows, users can double-click to run the run_app.bat file, which is a script containing commands, written in plain text that can be executed in Windows commands or programs with command-like interfaces.
+- Else, if users are running macOS, then users can use run_app.sh. Users can make the file executable with chmod +x run_app.sh, and then run it from the terminal using ./run_app.sh.
+- Alternatively, you can always choose to run our app.py from a terminal, an IDE, or a code editor that support Python environments.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
