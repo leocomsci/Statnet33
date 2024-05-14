@@ -24,7 +24,6 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
 
 <!-- PROJECT LOGO -->
 <br />
@@ -101,9 +100,11 @@ StatNet33 is a Social Network Analyzer project to build a flexible and user-frie
 
 - Required R Packages: Install any required R packages listed in the `install_packages.R` script by running `source("install_packages.R")` in your R console.
 - For Windows users: You will need to set the R_HOME and R_LIBS environment variable to your R installation directory. This code snippet is included at the top of the ergm.py, located in the pages folder. For example:
-  ` os.environ['R_HOME'] = 'C:\\Program Files\\R\\R-[version]'`
 
-  ` os.environ['R_LIBS'] = 'C:\\Program Files\\R\\R-[version]\\library'`
+  `os.environ['R_HOME'] = 'C:\\Program Files\\R\\R-[version]'`
+
+  `os.environ['R_LIBS'] = 'C:\\Program Files\\R\\R-[version]\\library'`
+
   You can replace the path to your R installation directory on Windows accordingly.
 
 - For macOS users: You can set environment variables using the terminal using the export command. For example:
@@ -118,7 +119,7 @@ StatNet33 is a Social Network Analyzer project to build a flexible and user-frie
 
 Or We can use code snippet that is also included for MacOs users:
 
-` os.environ['R_HOME'] = '/Library/Frameworks/R.framework/Resources'`
+`os.environ['R_HOME'] = '/Library/Frameworks/R.framework/Resources'`
 
 `os.environ['R_LIBS'] = '/Library/Frameworks/R.framework/Versions/[version]/Resources/library'`
 
