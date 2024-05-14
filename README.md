@@ -32,7 +32,7 @@
     <img src="assets/logo.jpg" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">Web application</h3>
+<h3 align="center">Statnet33</h3>
 
   <p align="center">A Social Network Analyzer application with a flexible and user-friendly, cross-platform tool for social network analysis and visualisation
     <br />
