@@ -107,21 +107,25 @@ StatNet33 is a Social Network Analyzer project to build a flexible and user-frie
 - Required R Packages: Install any required R packages listed in the `install_packages.R` script by running `source("install_packages.R")` in your R console.
 - For Windows users: You will need to set the R_HOME and R_LIBS environment variable to your R installation directory. This code snippet is included at the top of the ergm.py, located in the pages folder. For example:
   ` os.environ['R_HOME'] = 'C:\\Program Files\\R\\R-[version]'`
+
   ` os.environ['R_LIBS'] = 'C:\\Program Files\\R\\R-[version]\\library'`
   You can replace the path to your R installation directory on Windows accordingly.
+
 - For macOS users: You can set environment variables using the terminal using the export command. For example:
 
-  `export R_HOME=/Library/Frameworks/R.framework/Resources`
+  ```sh
+  export R_HOME=/Library/Frameworks/R.framework/Resources`
+  ```
 
-  `export R_LIBS=/Library/Frameworks/R.framework/Versions/[version]/Resources/library`
+  ```sh
+  export R_LIBS=/Library/Frameworks/R.framework/Versions/[version]/Resources/library
+  ```
 
   Or We can use code snippet that is also included for MacOs users:
 
   ` os.environ['R_HOME'] = '/Library/Frameworks/R.framework/Resources'`
 
-  ```sh
-  os.environ['R_LIBS'] = '/Library/Frameworks/R.framework/Versions/[version]/Resources/library'
-  ```
+  `os.environ['R_LIBS'] = '/Library/Frameworks/R.framework/Versions/[version]/Resources/library'`
 
 4. After making sure that Python and R have what it needs, StatNet33 can be accessed by opening the preferred web browser (e.g., Google Chrome, Mozilla Firefox, Safari).
 
