@@ -32,10 +32,9 @@
     <img src="assets/logo.jpg" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">A Social Network Analyzer application with a flexible and user-friendly, cross-platform tool for social network analysis and visualisation</h3>
+<h3 align="center">Web application</h3>
 
-  <p align="center">
-    Web application
+  <p align="center">A Social Network Analyzer application with a flexible and user-friendly, cross-platform tool for social network analysis and visualisation
     <br />
     <br />
     <a href="https://github.com/leocomsci/Statnet33/issues">Report Bug or Request Feature</a>
