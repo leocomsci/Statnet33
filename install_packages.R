@@ -1,0 +1,12 @@
+install.packages(
+    c("statnet", 
+    "network", 
+    "ergm", 
+    "networkDynamic", 
+    "tergm", 
+    "ergm.count", 
+    "sna", 
+    "tsna", 
+    "Rglpk", 
+    "base64enc"
+))

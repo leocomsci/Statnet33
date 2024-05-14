@@ -1,0 +1,30 @@
+ID,Name,Age,Gender,Education
+0.0,Grace,22,Female,Bachelor's Degree
+1.0,Bob,53,Female,High School
+2.0,Frank,50,Male,High School
+3.0,Frank,41,Male,Bachelor's Degree
+4.0,Bob,57,Male,Master's Degree
+5.0,Eve,41,Male,Master's Degree
+6.0,Jack,56,Female,Master's Degree
+7.0,Ivy,34,Female,Master's Degree
+8.0,Harry,54,Male,PhD
+9.0,Frank,26,Male,Master's Degree
+10.0,David,20,Female,Bachelor's Degree
+11.0,David,25,Male,High School
+12.0,Grace,35,Female,Bachelor's Degree
+13.0,Frank,48,Female,High School
+14.0,Ivy,18,Female,Master's Degree
+15.0,Bob,24,Male,Bachelor's Degree
+16.0,David,53,Female,PhD
+17.0,Jack,40,Female,Master's Degree
+18.0,Charlie,41,Male,High School
+19.0,Bob,41,Male,High School
+20.0,Ivy,18,Female,Bachelor's Degree
+21.0,Grace,56,Male,PhD
+22.0,Bob,24,Female,PhD
+23.0,Alice,41,Male,PhD
+24.0,Alice,43,Male,High School
+25.0,Alice,56,,PhD
+26.0,Charlie,46,Female,PhD
+27.0,Ivy,27,Male,Bachelor's Degree
+28.0,David,19,Female,PhD
