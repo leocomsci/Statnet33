@@ -33,10 +33,10 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">AI System for Classifying, Evaluating and Interpreting Privacy Policies and Terms of Conditions</h3>
+<h3 align="center">A Social Network Analyzer application with a flexible and user-friendly, cross-platform tool for social network analysis and visualisation</h3>
 
   <p align="center">
-    NLP system with web application
+    Web application
     <br />
     <br />
     <a href="https://github.com/leocomsci/Statnet33/issues">Report Bug or Request Feature</a>
@@ -67,29 +67,29 @@
 ## About The Project
 
 <div align="center">
-  <img src="images/index_white.png" alt="Product Name Screen Shot White" width="750" />
+  <img src="assets/homepage.png" alt="Product Name Screen Shot White" width="750" />
 </div>
 
-A versatile web application that leverages natural language processing (NLP) and machine learning techniques to assist users in evaluating policy documents for its acceptability and identifying potential issues. The tool provides users with an efficient and effective means of ensuring that their policies adhere to predefined standards, all while highlighting and summarising the problematic parts of the policies.
-The current workflow is:
+StatNet33 is a Social Network Analyzer project to build a flexible and user-friendly, cross-platform tool for social network analysis and visualisation. It is developed in Python and R, which can run on both Windows and macOS. The app features an intuitive and user-friendly interface that guides users through the analysis process. It offers interactive controls and tooltips to assist users in navigating functionalities. The web application offers a set of features and capabilities to facilitate social network analysis:
 
-- Data Preparation: Text data was preprocessed to normalize case, remove stopwords, tokenize, and lemmatize it.
-- Data Extraction: Word2Vec, trained on Google News data, transformed text into numerical vectors, capturing semantic word relationships.
-- Machine Learning Models: Various models, including Decision Tree, Random Forest, Support Vector Machine (SVM), Logistic Regression, and Convolutional Neural Network (CNN), were used for text classification. Hyperparameter tuning enhanced model performance.
-- Problematic Phrases: Highlighted problematic phrases in text using HTML <span> with red background.
-- Summarization: Automated text summarization with the BART model from HuggingFace to generate concise summaries.
+- Users can easily upload network data in common formats such as CSV or JSON. The application provides validation tools to ensure data integrity.
+- A wide range of network cohesion statistics to summarize and characterize the properties of the uploaded network. These statistics include measures of centrality, connectivity, density, and more.
+- Networks can be visualised using interactive and customizable graph layouts provided by Dash Cytoscape. The application supports various styles, colours, and labelling options to enhance the visual representation of the network.
+- The app utilised Exponential Random Graph Models (ERGM) to analyse the structural patterns and associated factors in the network. Users can use ERGM models to assess model fit and interpret the results.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Built With
 
 ![Python Badge](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff&style=flat)
-![pandas Badge](https://img.shields.io/badge/pandas-150458?logo=pandas&logoColor=fff&style=flat)
 ![NumPy Badge](https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=fff&style=flat)
-![Keras Badge](https://img.shields.io/badge/Keras-D00000?logo=keras&logoColor=fff&style=flat)
-![scikit-learn Badge](https://img.shields.io/badge/scikit--learn-F7931E?logo=scikitlearn&logoColor=fff&style=flat)
-![Flask Badge](https://img.shields.io/badge/Flask-000?logo=flask&logoColor=fff&style=flat)
-![Streamlit Badge](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=fff&style=flat)
+![pandas Badge](https://img.shields.io/badge/pandas-150458?logo=pandas&logoColor=fff&style=flat)
+![NetworkX Badge](https://img.shields.io/badge/NetworkX-4D4D4D?logo=networkx&logoColor=fff&style=flat)
+![Seaborn Badge](https://img.shields.io/badge/Seaborn-4EABE1?logo=seaborn&logoColor=fff&style=flat)
+![Statnet Badge](https://img.shields.io/badge/Statnet-0047AB?logo=statnet&logoColor=fff&style=flat)
+![R Badge](https://img.shields.io/badge/R-276DC3?logo=r&logoColor=fff&style=flat)
+![rpy2 Badge](https://img.shields.io/badge/rpy2-2E2E2E?logo=r&logoColor=fff&style=flat)
+![Dash Badge](https://img.shields.io/badge/Dash-1380C3?logo=dash&logoColor=fff&style=flat)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -97,7 +97,7 @@ The current workflow is:
 
 ## Setup
 
-1. Clone or [download](https://github.com/Ethan4thewin/NLP-policy/archive/refs/heads/main.zip) the repo.
+1. Clone or [download](https://github.com/leocomsci/Statnet33/archive/refs/heads/main.zip) the repo.
 2. Download the pre-trained word embeddings from Google News Word2Vec, unzip and put the .bin file in the main folder.
 
 - HuggingFace: https://huggingface.co/NathaNn1111/word2vec-google-news-negative-300-bin
