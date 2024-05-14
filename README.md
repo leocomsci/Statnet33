@@ -40,8 +40,6 @@
     NLP system with web application
     <br />
     <br />
-    <a href="https://colab.research.google.com/drive/1jM-pC5TXI-oo_Ybl5AGeevZP61ugHcKW?usp=sharing">View Demo on Google Colaboratory</a>
-    ·
     <a href="https://github.com/leocomsci/Statnet33/issues">Report Bug or Request Feature</a>
   </p>
 </div>
