@@ -119,7 +119,9 @@ StatNet33 is a Social Network Analyzer project to build a flexible and user-frie
 
   ` os.environ['R_HOME'] = '/Library/Frameworks/R.framework/Resources'`
 
-  ` os.environ['R_LIBS'] = '/Library/Frameworks/R.framework/Versions/[version]/Resources/library'`
+  ```sh
+  os.environ['R_LIBS'] = '/Library/Frameworks/R.framework/Versions/[version]/Resources/library'
+  ```
 
 4. After making sure that Python and R have what it needs, StatNet33 can be accessed by opening the preferred web browser (e.g., Google Chrome, Mozilla Firefox, Safari).
 
