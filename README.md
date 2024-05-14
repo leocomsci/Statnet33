@@ -130,7 +130,7 @@ StatNet33 is a Social Network Analyzer project to build a flexible and user-frie
 4. After making sure that Python and R have what it needs, StatNet33 can be accessed by opening the preferred web browser (e.g., Google Chrome, Mozilla Firefox, Safari).
 
 - If users use Windows, users can double-click to run the `run_app.bat` file, which is a script containing commands, written in plain text that can be executed in Windows commands or programs with command-like interfaces.
-- Else, if users are running macOS, then users can use run_app.sh. Users can make the file executable with
+- Else, if users are running macOS, then users can use `run_app.sh`. Users can make the file executable with
 
 ```sh
 chmod +x run_app.sh
